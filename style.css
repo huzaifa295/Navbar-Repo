@@ -1,0 +1,63 @@
+#parent{
+    height: 100px;
+    width: 100%;
+   
+    background-color: orangered;
+    display: flex;
+    
+}
+
+.box1{
+    width: 20%;
+   
+   
+    
+}
+img{
+  display: block;
+  margin:10px auto;
+   
+}
+
+.input1{
+    width: 600px;
+   height: 45px;
+   display: block;
+   margin: 25px auto;
+   border-radius: 10px;
+}
+.box2{
+    width: 50%;
+    
+    
+
+}
+.input2{
+    width:100px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+.input3{
+    width:100px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+.input4{
+    width:100px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+.box3{
+    width: 30%;
+    margin: auto;
+   
+}
+
+   
+
