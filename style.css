@@ -10,31 +10,36 @@
 .topbar{
     height: 30%;
     width: 100%;
-   
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .box1{
-    height: 70%;
-    width: 50%;
-   
-    justify-content: space-evenly;  
+    height: 80%;
+
 }
 
-p{
+ul, li{
    color: white;
-   justify-content: space-evenly; 
-  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    gap: 20px;
+    padding-left: 10px;
 }
 .box2{
-    height: 70%;
-    width: 30%;
-   
+    height: 80%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.box2 p{
+    color: white;
+    padding-right: 15px;
 }
 .bottombar{
-    height: 70%;
+    height: 80%;
     width: 100%;
     
     display: flex;
@@ -42,18 +47,17 @@ p{
     justify-content: space-evenly;
 }
 .box3{
-    height: 70%;
-    width: 15%;
-   
-    padding-left:60px;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box4{
     height: 70%;
-    width: 50%;
-    
-    padding-left: 65px;
-    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 #search{
@@ -65,10 +69,11 @@ p{
     padding-left: 20px;
 }
 .box5{
-    height: 70%;
-    width: 30%;
-   
-    /* padding-left: 60px; */
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .box5 input{
     color: white;
@@ -80,9 +85,8 @@ p{
 }
 .box6{
     height: 100px;
-    width: 70px;
     display: inline;
-}
-.box6 img{
-    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
